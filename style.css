@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+}
+.column {
+    width: 45%;
+    display: inline-block;
+}
+
