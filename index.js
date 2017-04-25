@@ -9,7 +9,13 @@ function getLaDataFromAPI(){
         var finalHTML = ''
         json.forEach(function(item){
             var words = `
-            <p>this is the corporation of ${item.account_name}, which involves ${item.program_name}. With as dudget of ${item._2017_2018_proposed_budget}</p>
+            
+            
+  <div class="card" style=" border:solid 1px;border-bottom-color: blue;" >
+    <div class="card-content">
+            <p> Require ${item.account_name}, which involves ${item.program_name}. With a budget of ${item._2017_2018_proposed_budget}</p>
+    </div>
+  </div>
             
             `
             finalHTML += words
